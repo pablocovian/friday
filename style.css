@@ -15,15 +15,16 @@ body {
   height: 500px;
 }
 
-/* Center Core Icon */
+/* Center Core Icon (aligned with inner orbit) */
 .center-icon {
   position: absolute;
-  width: 80px;
-  height: 80px;
   top: 50%;
   left: 50%;
+  width: 80px;
+  height: 80px;
   transform: translate(-50%, -50%);
   z-index: 10;
+  pointer-events: none;
 }
 
 .center-icon img {
